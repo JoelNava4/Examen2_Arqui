@@ -1,0 +1,9 @@
+services:
+  ms-croud_operations:
+    image: croud_operations:latest
+    ports:
+      - "9090:9090"
+    environment:
+      PORT: 9090
+    networks:
+      - my-network
