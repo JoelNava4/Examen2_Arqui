@@ -1,4 +1,5 @@
 package com.example.crud_operations;
 
-public class ClientApi {
+public interface ClientApi {
+    boolean createClient(RequestClient clientRequestDto);
 }

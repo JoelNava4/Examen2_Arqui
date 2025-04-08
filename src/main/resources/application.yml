@@ -1,1 +1,4 @@
-spring.application.name=crud-operations
+spring:
+  application.name: crud-operations
+server:
+  port: 9090

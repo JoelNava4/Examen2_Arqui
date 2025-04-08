@@ -1,4 +1,4 @@
 package com.example.crud_operations;
 
-public class RequestClient {
+public record RequestClient(String firstName, String paternalLastName, String maternalLastName, String identityDocument) {
 }

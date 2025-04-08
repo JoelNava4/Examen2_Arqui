@@ -1,4 +1,4 @@
 package com.example.crud_operations;
 
-public class ResponsesClient {
+public record ResponsesClient(boolean success, String message) {
 }
